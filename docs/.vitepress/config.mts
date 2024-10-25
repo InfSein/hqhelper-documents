@@ -2,15 +2,15 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "HqHelper Documents",
+  title: "HqHelper 帮助文档",
   description: "Help you understand, learn how to use, and even participate in the development of HqHelper.",
   base: '/hqhelper-documents/',
   cleanUrls: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: '欢迎页', link: '/' },
+      { text: '指南', link: '/markdown-examples' }
     ],
 
     sidebar: [
@@ -24,7 +24,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/InfSein/hqhelper-dawntrail' }
     ]
   }
 })
