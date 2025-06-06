@@ -1,10 +1,23 @@
 {
+  "name": "hqhelper-documents",
+  "version": "0.0.1",
+  "description": "HqHelper 使用文档",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
+  },
+  "keywords": [
+    "hqhelper",
+    "ffxiv",
+    "dawntrail",
+    "documentation"
+  ],
+  "author": "",
+  "license": "MIT",
   "devDependencies": {
     "vitepress": "^1.4.0"
-  },
-  "scripts": {
-    "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
   }
 }
+
