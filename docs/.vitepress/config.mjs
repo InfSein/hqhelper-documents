@@ -4,6 +4,8 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "HqHelper 使用文档",
   description: "最终幻想XIV生产采集玩家的黄金篇秘籍配方制作计算器",
+  base: '/hqhelper-documents/',
+  cleanUrls: true,
   lang: 'zh-CN',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
